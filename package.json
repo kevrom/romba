@@ -1,0 +1,24 @@
+{
+  "name": "romba",
+  "version": "0.0.1",
+  "description": "A stream-based IRC bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevrom/romba"
+  },
+  "keywords": [
+    "irc",
+    "js",
+    "romba"
+  ],
+  "author": "Kevin Romano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevrom/romba/issues"
+  },
+  "homepage": "https://github.com/kevrom/romba"
+}
