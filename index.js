@@ -1,6 +1,6 @@
 'use strict';
 
-var Server = require('./Server');
+var Server = require('./lib/Server');
 
 var botOpts = {
 	server: {
