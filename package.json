@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/kevrom/romba/issues"
   },
-  "homepage": "https://github.com/kevrom/romba"
+  "homepage": "https://github.com/kevrom/romba",
+  "dependencies": {
+    "lstream": "0.0.4"
+  }
 }
