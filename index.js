@@ -14,4 +14,8 @@ var botOpts = {
 	}
 }
 
-var mybot = new Server(botOpts).connect();
+var mybot = new Server(botOpts).connect(function(bot) {
+	bot.on('privmsg', function() {
+		console.log('private messssaaaggeee');
+	});
+});
