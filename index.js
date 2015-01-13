@@ -1,6 +1,7 @@
 'use strict';
 
 var util = require('util');
+var Client = require('./lib/Client');
 var Server = require('./lib/Server');
 
 var botOpts = {
@@ -14,8 +15,4 @@ var botOpts = {
 	}
 }
 
-var mybot = new Server(botOpts).connect(function(bot) {
-	bot.on('privmsg', function() {
-		console.log('private messssaaaggeee');
-	});
-});
+var mybot = new Client(botOpts).init();
